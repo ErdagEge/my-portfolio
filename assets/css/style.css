@@ -1,2 +1,19 @@
 html { scroll-behavior: smooth; }
 
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#about .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
