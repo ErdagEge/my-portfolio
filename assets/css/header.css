@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+    header nav {
+        margin-top: 0.5rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
