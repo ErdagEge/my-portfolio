@@ -61,6 +61,12 @@ html { scroll-behavior: smooth; }
     color: #fff;
     text-decoration: underline;
     margin-right: 0.5rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.project-links a:hover {
+    color: #ddeaff;
+    transform: scale(1.05);
 }
 
 #skills {
@@ -104,6 +110,12 @@ html { scroll-behavior: smooth; }
     color: #333;
     margin: 0 0.5rem;
     font-size: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+#contact .social-links a:hover {
+    color: #007bff;
+    transform: scale(1.1);
 }
 
 #contact .resume-button {
@@ -114,4 +126,10 @@ html { scroll-behavior: smooth; }
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#contact .resume-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
