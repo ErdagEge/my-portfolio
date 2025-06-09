@@ -17,3 +17,44 @@ html { scroll-behavior: smooth; }
     margin-bottom: 1rem;
 }
 
+#projects {
+    padding: 2rem;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project-card {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-links {
+    margin-top: 1rem;
+}
+
+.project-links a {
+    color: #fff;
+    text-decoration: underline;
+    margin-right: 0.5rem;
+}
+
