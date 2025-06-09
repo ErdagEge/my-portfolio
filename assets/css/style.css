@@ -58,3 +58,30 @@ html { scroll-behavior: smooth; }
     margin-right: 0.5rem;
 }
 
+#skills {
+    padding: 2rem;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#skills li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#skills li .icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
