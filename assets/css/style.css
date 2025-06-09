@@ -30,7 +30,12 @@ html { scroll-behavior: smooth; }
 }
 
 .project-card {
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    /* Glassy gradient background */
+    background: linear-gradient(135deg,
+        rgba(255, 255, 255, 0.25),
+        rgba(255, 255, 255, 0.05));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     color: #fff;
     padding: 1.5rem;
     border-radius: 8px;
